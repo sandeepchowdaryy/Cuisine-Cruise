@@ -17,7 +17,7 @@ const Cart = () => {
 
   return cartitems.length === 0 ? (
     <div className="mt-10 flex flex-col justify-center items-center">
-    <img className="w-5/12  " src="https://assets.materialup.com/uploads/ab4605f2-e16b-487b-9684-01756d71d244/ntta_m346_05.jpg" /> 
+    <img className="w-5/12  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvyomBBKa9jA9ecfi5Qe_Wg1Nsd_Qe_1SHfg&s" /> 
     <Link to={"/"}><button className=" bg-orange-500 text-white p-3 rounded-xl font-bold">Explore Restaurants</button></Link>
         
     </div>
