@@ -17,7 +17,7 @@ const Cart = () => {
 
   return cartitems.length === 0 ? (
     <div className="mt-10 flex flex-col justify-center items-center">
-    <img className="w-5/12  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvyomBBKa9jA9ecfi5Qe_Wg1Nsd_Qe_1SHfg&s" /> 
+    <img className="w-2/12 m-auto mt-32   " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvyomBBKa9jA9ecfi5Qe_Wg1Nsd_Qe_1SHfg&s" /> 
     <Link to={"/"}><button className=" bg-orange-500 text-white p-3 rounded-xl font-bold">Explore Restaurants</button></Link>
         
     </div>
