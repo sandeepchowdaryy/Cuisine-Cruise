@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { MdOutlineMyLocation } from "react-icons/md";
 
 
-const SideBar = () => {
+const sideBar = () => {
   const isMenuOpen = useSelector((store) => store.sidebar.isMenuOpen);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -94,4 +94,4 @@ const SideBar = () => {
   );
 };
 
-export default SideBar;
+export default sideBar;
