@@ -12,7 +12,7 @@ import userContext from "./utils/userContext";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 //import Cart from "./Components/Cart";
-import SideBar from "./Components/Sidebar";
+import SideBar from "./Components/SideBar";
 
 const Body = lazy(()=>import("./Components/Body"))
 const About = lazy(() => import("./Components/About"));
