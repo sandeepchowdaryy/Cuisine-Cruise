@@ -1,5 +1,5 @@
 DownLoad the zip file
 open in vscode
-terminal
+Go to terminal
       -> npm install 
       -> npm start
